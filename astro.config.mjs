@@ -7,6 +7,7 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://example.com',
-    integrations: [mdx(), sitemap(), tailwind()],
+  site: 'https://ecruzolivera.github.io',
+  base: 'Notas-de-Rol',
+  integrations: [mdx(), sitemap(), tailwind()],
 });
